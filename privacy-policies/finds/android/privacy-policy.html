@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Finds</title>
+  <style>
+    :root {
+      --accent: #FDA11A;
+      --text: #1a1a1a;
+      --muted: #555;
+      --border: #e0e0e0;
+      --bg: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f0f0f0;
+        --muted: #aaa;
+        --border: #333;
+        --bg: #111;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+      padding: 2rem 1rem 4rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header { border-bottom: 2px solid var(--accent); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+    header h1 { font-size: 2rem; font-weight: 700; }
+    header p { color: var(--muted); margin-top: 0.25rem; font-size: 0.9rem; }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 2rem 0 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    p { margin-top: 0.75rem; color: var(--text); }
+    ul { margin: 0.75rem 0 0.75rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p>Finds &mdash; Last updated: May 4, 2026</p>
+    </header>
+
+    <p>
+      Finds is a personal finds-logging app for recording the location, photos, and details of
+      items you discover in the field. This policy explains what data the app collects, how it
+      is used, and what is shared with third parties.
+    </p>
+
+    <h2>Data We Collect</h2>
+    <p>Finds collects the following on your device:</p>
+    <ul>
+      <li>
+        <strong>Precise GPS location</strong> — used to record the geographic coordinates of
+        finds and site markers. Location is only accessed when you actively log a find or view
+        the map.
+      </li>
+      <li>
+        <strong>User-created content</strong> — find details (title, notes, tags, dates),
+        photos you attach, and site information you enter manually.
+      </li>
+    </ul>
+
+    <h2>How Data Is Stored</h2>
+    <p>
+      All your content — finds, sites, photos, and settings — is stored <strong>locally on
+      your device</strong> in a SQLite database. No account is required, and no find data is
+      transmitted to our servers. Uninstalling the app deletes all local data.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>Finds uses the following third-party SDK:</p>
+    <ul>
+      <li>
+        <strong>Mapbox Maps SDK</strong> — renders the interactive map used to place and view
+        finds. Mapbox may collect device identifiers and location data to provide map tiles and
+        improve its services. This data is governed by
+        <a href="https://www.mapbox.com/legal/privacy" target="_blank" rel="noopener">
+          Mapbox's Privacy Policy
+        </a>.
+      </li>
+    </ul>
+    <p>
+      We do not sell, rent, or share your personal data with any other third parties.
+    </p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li>
+        <strong>Location (Precise)</strong> — required to geo-tag finds and center the map on
+        your current position. You can deny this permission; the app will still work but
+        coordinates will not be recorded automatically.
+      </li>
+      <li>
+        <strong>Camera &amp; Photo Library</strong> — used to attach photos to a find. Photos
+        remain on your device and are not uploaded anywhere.
+      </li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>
+      Finds is not directed at children under 13. We do not knowingly collect personal
+      information from children.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      If we make material changes to this policy, we will update the date at the top of this
+      page. Continued use of the app after any changes constitutes acceptance of the updated
+      policy.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy? Reach us at
+      <a href="mailto:kevin.gaddy@gmail.com">kevin.gaddy@gmail.com</a>.
+    </p>
+
+    <footer>
+      &copy; 2026 Kevin Gaddy &mdash; Finds &mdash; Package: com.kgaddy.finds
+    </footer>
+  </div>
+</body>
+</html>
